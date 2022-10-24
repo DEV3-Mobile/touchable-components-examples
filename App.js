@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, TouchableWithoutFeedback, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity } from 'react-native';
 
-import Tile from './components/Tile'
 
 function handlePress() {
   console.log("touched");
